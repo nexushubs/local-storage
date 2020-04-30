@@ -3,7 +3,8 @@ import { render } from "react-dom";
 import { useLocalStorage } from "../";
 
 const App = () => {
-  let name = useLocalStorage("name");
+  let [name] = useLocalStorage("name");
+
   return (
     <div>
       <h1>{name}</h1>
