@@ -1,5 +1,5 @@
 {
-  "name": "@rehooks/local-storage",
+  "name": "@lvfang/local-storage",
   "version": "2.2.2",
   "description": "React hook for local-storage",
   "main": "lib/index.js",
